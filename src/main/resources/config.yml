@@ -1,0 +1,23 @@
+# Join our discord - https://discord.gg/YGzA4UxzFB you can find another good plugins there.
+# "shapelessPortals.reload" - permission required to use "/shapelessportals reload" command
+
+# if true, only player can create shapeless portals.
+onlyPlayerCanIgnite: false
+
+# if true, player must have permission to ignite shapeless portals
+isPermissionRequired: false
+permission: "shapelessPortals.ignite"
+
+maxWidth: 21
+maxHeight: 21
+
+minPortalSize: 1
+
+portalFrameMaterials:
+  - OBSIDIAN
+  - CRYING_OBSIDIAN
+
+
+# reload messages, supports MiniMessage
+noPermissionToReload: "<red>✘ <white>You don't have permission!"
+successfullyReloaded: "<green>✔ <white>Config reloaded!"
